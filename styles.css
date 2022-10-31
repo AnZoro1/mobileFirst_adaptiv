@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+}
+.firstMainContainer {
+  max-width: 364px;
+  max-height: 600px;
+  display: none;
+
+  margin-left: 30px;
+}
+.continFirst {
+  display: flex;
+  width: 100%;
+}
+.circle2 {
+  max-width: 30px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.FullStats {
+  max-width: 122px;
+  font-size: 26px;
+  margin-top: 39px;
+  margin-left: 8px;
+}
+.Girl {
+  max-width: 364px;
+  max-height: 273px;
+  margin-top: 288.5px;
+  margin-bottom: 359.5px;
+}
+.SecondMainContainer {
+  max-width: 375px;
+}
+header {
+  max-width: 375px;
+  display: flex;
+}
+.circle {
+  max-width: 40px;
+  max-height: 40px;
+  margin-top: 32px;
+  margin-left: 20px;
+}
+main {
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+}
+.Open {
+  margin-left: 20px;
+  margin-top: 6px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.writeinfodown {
+  margin-top: 8px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.contUseEmail {
+  max-width: 335px;
+  margin-top: 40px;
+  margin-left: 20px;
+  display: flex;
+  background-color: rgba(50, 88, 251, 0.2);
+}
+.imageDanger {
+  max-width: 20px;
+  margin-top: 25px;
+  margin-left: 18px;
+}
+.useEmail {
+  max-width: 271px;
+  margin-top: 13px;
+  margin-left: 14px;
+  margin-bottom: 13px;
+}
+
+.WriteEmail {
+  max-width: 142px;
+  margin-top: 40px;
+  margin-left: 34px;
+}
+.WriteParol {
+  max-width: 65px;
+  max-height: 24px;
+  font-size: 16px;
+  margin-top: 56px;
+  margin-left: 34px;
+}
+.contRemembForgetParol {
+  display: flex;
+  width: 100%;
+}
+.CheckMark {
+  max-width: 18px;
+  margin-top: 43px;
+  margin-left: 31px;
+}
+.RemembMe {
+  max-width: 110px;
+  font-size: 14px;
+  margin-top: 41px;
+  margin-left: 11px;
+}
+.forgetPar {
+  max-width: 109px;
+  margin-top: 41px;
+  margin-left: 76px;
+  font-size: 14px;
+  color: blue;
+}
+.Enter {
+  max-width: 335px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: blue;
+  margin-top: 25px;
+  margin-left: 20px;
+  font-size: 15px;
+  padding: 11px 146px 11px 146px;
+  color: white;
+}
+.floor {
+  width: 100%;
+  margin-left: 47.5px;
+  display: inline;
+  margin-top: 35px;
+}
+
+@media only screen and (min-width: 500px) {
+  .firstMainContainer {
+    display: block;
+  }
+  .SecondMainContainer {
+    margin-left: 370px;
+  }
+}
